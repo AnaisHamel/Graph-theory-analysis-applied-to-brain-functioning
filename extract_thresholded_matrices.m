@@ -22,7 +22,7 @@ myDir = uigetdir; % Select the folder containing the weighted connectivity matri
 fileList = dir(fullfile(myDir,'*.mat'));
 
 %% Loop over each file / subject
-for file=1:length(fileList)                                         
+for file=1:length(fileList)                                         % Place yourself in the folder and run this line                                         
     Ma = fileList(file).name;                                       % Get the file name
     open_double = open(Ma);                                         % Load the .mat file
     threshold_matrix = threshold_proportional(open_double.M,0.15);  % Retain the top 15% of strongest connections
