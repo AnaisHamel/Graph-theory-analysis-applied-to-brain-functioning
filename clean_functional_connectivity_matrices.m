@@ -21,6 +21,7 @@ for file=1:length(fileList)           % Place yourself in the folder and run thi
     M = dlmread(fileList(file).name); % Load the matrix
     M(1:1+size(M,1):end) = 0;         % Set the diagonal values to 0
     M(M < 0) = 0;                     % Set negative values to 0
+%% Extract subject number from file name
     d=fileList(file).name;            % Get the file name (if needed)
     e=regexp(d,'\d+','match');        % Extract only the digits from the file name (number of the subject, if needed)
     f=cell2mat(e);                    % Convert to string / number
