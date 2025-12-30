@@ -31,9 +31,9 @@ Graph theory provides quantitative tools to characterize brain organization thro
 
 Graph metrics can be extracted at multiple levels:
 
-(-) whole-brain
-(-) network
-(-) regional
+- whole-brain
+- network
+- cerebral region
 
 This pipeline illustrates how graph-based metrics can be derived from fMRI time series to investigate large-scale brain organization.
 
