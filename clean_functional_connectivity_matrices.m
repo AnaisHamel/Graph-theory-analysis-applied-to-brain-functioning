@@ -17,7 +17,7 @@ mkdir corr_z-diag0_positives_values/CSV
 mkdir corr_z-diag0_positives_values/TXT 
 
 %% Loop over each subject
-for file=1:length(fileList)
+for file=1:length(fileList)           % Place yourself in the folder and run this line
     M = dlmread(fileList(file).name); % Load the matrix
     M(1:1+size(M,1):end) = 0;         % Set the diagonal values to 0
     M(M < 0) = 0;                     % Set negative values to 0
