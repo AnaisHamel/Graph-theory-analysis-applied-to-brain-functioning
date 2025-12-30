@@ -40,22 +40,22 @@ This pipeline illustrates how graph-based metrics can be derived from fMRI time 
 ##  Methodology
 Pre-processed data are needed 
 
-# 1. Extraction of connectivity matrices using the BRANT toolbox
+### 1. Extraction of connectivity matrices using the BRANT toolbox
 
-# 2. Graph construction
+### 2. Graph construction
 
-# 3. Graph-theoretical measures
+### 3. Graph-theoretical measures
 
 Using the Brain Connectivity Toolbox, the following metrics are computed:
 
-(-) Whole-brain measures : 
-(-) (-) Global efficiency 
-(-) (-) Modularity 
+- Whole-brain measures :
+  - Global efficiency
+  - Modularity 
 
-(-) Network measures : 
-(-) (-) Participation coefficient (integration) 
-(-) (-) Within-module degree (segregation)
+- Network measures : 
+  - Participation coefficient (integration) 
+  - Within-module degree (segregation)
 
-(-) Regional measures : 
-(-) (-) Strength (centrality) 
-(-) (-) Clustering coefficient
+- Regional measures : 
+  - Strength (centrality) 
+  - Clustering coefficient
