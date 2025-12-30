@@ -12,7 +12,7 @@ Procedure
 
 - Open MATLAB.
 - In the MATLAB Command Window, run: SPM fmri
-  -⚠️ Do not close SPM after launching it, as this may cause errors.
+  - ⚠️ Do not close SPM after launching it, as this may cause errors.
 - Add the BRANT toolbox (including all subfolders) to the MATLAB path.
 - In the MATLAB Command Window, run: brant
 
