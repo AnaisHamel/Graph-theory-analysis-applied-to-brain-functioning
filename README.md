@@ -44,7 +44,7 @@ Pre-processed data are needed
 
 ### 2. Graph construction
 
-### 3. Graph-theoretical measures
+### 3. Graph-theory measures
 
 Using the Brain Connectivity Toolbox, the following metrics are computed:
 
