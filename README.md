@@ -40,11 +40,13 @@ This pipeline illustrates how graph-based metrics can be derived from fMRI time 
 ##  Methodology
 Pre-processed data are needed 
 
-### 1. Extraction of connectivity matrices using the BRANT toolbox
+### 1. Extract functional connectivity matrices using the BRANT toolbox
 
-### 2. Graph construction
+### 2. Clean functional connectivity matrices
 
-### 3. Graph-theory measures
+### 3. Extract thresholded matrices
+
+### 4. Extract graph-theory measures
 
 Using the Brain Connectivity Toolbox, the following metrics are computed:
 
